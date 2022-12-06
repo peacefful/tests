@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+$fzHeader: 64px;
+$fzWords: 40px;
+
+$widthBox: 371px;
+$btnRadius: 25px;
+$inputRadius: 15px;
+$padding: 30px;
+$fzBtn: 35px;
+
+$blue: #378FF5;
+$white: white;
+$btnColor: #05782C;
+
+$Inter: 'Inter', sans-serif;
+
+body {
+	background-color: #1E1E1E;
+	color: $white;
+	margin: auto;
+}
+
+header {
+	font-size: $fzHeader;
+	font-family: $Inter;
+	text-align: center;
+	margin-top: 74px;
+}
+
+main {
+	margin-top: 13%;
+	font-family: $Inter;
+	
+	.title {
+		font-size: $fzWords;
+		text-align: center;
+		// margin-bottom: 3%;
+	}
+	.list {
+		display: flex;
+		margin: auto;
+		width: 50%;
+		justify-content: space-between;
+		.list__item {
+			margin-top: 6%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: $widthBox;
+			font-size: $fzWords;
+			padding: $padding;
+			border-radius: $btnRadius;
+			color: $white;
+			background-color: $blue;
+			font-family: $Inter;
+		}
+	}
+	
+}
+
+.content {
+	width: 45%;
+	margin: auto;
+	font-family: $Inter;
+	.content__widget {
+		margin-top: 12%;
+		font-size: $fzBtn;
+		display: grid;
+		grid-template-columns: 1fr 350px;
+		grid-template-rows: repeat(5, 1fr);
+		grid-column-gap: 20px;
+		grid-row-gap: 35px;
+
+		input {
+			border-radius: $inputRadius;
+		}
+	}
+	.btn__submit {
+		display: flex;
+		margin: auto;
+		width: 784px;
+		justify-content: center;
+		justify-self: stretch;
+		border-radius: $btnRadius;
+		margin-top: 15%;
+		color: $white;
+		font-family: $Inter;
+		padding: 20px;
+		background-color: $btnColor;
+		font-size: $fzBtn;
+	}
+}
+
