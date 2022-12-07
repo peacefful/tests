@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #1E1E1E;
+  background-color: #1e1e1e;
   color: white;
   margin: auto;
 }
@@ -16,6 +16,10 @@ header {
   font-family: "Inter", sans-serif;
   text-align: center;
   margin-top: 74px;
+}
+
+h1 {
+  font-size: 40px;
 }
 
 main {
@@ -42,7 +46,7 @@ main .list .list__item {
   padding: 30px;
   border-radius: 25px;
   color: white;
-  background-color: #378FF5;
+  background-color: #378ff5;
   font-family: "Inter", sans-serif;
 }
 
@@ -74,6 +78,66 @@ main .list .list__item {
   color: white;
   font-family: "Inter", sans-serif;
   padding: 20px;
-  background-color: #05782C;
+  background-color: #05782c;
+  font-size: 35px;
+}
+
+.test {
+  width: 67%;
+}
+.test header {
+  display: flex;
+  justify-content: space-between;
+}
+.test header h1 {
+  font-size: 40px;
+  margin-top: 2.5%;
+}
+.test header p {
+  font-size: 80px;
+}
+.test header span {
+  color: red;
+}
+.test .main__test {
+  margin-top: 7%;
+}
+.test .p__test-text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.test .test-title {
+  text-align: center;
+  font-size: 32px;
+  padding-bottom: 5%;
+}
+.test .test-term {
+  display: grid;
+  font-style: arial;
+  grid-template-columns: 4fr repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 50px;
+}
+.test .test-term button {
+  border-radius: 15px;
+  height: 63px;
+  width: 205px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
+.test .btn__close-task {
+  display: flex;
+  margin-left: auto;
+  width: 434px;
+  height: 81px;
+  justify-content: center;
+  justify-self: stretch;
+  border-radius: 25px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+  font-family: "Inter", sans-serif;
+  padding: 20px;
+  background-color: #05782c;
   font-size: 35px;
 }/*# sourceMappingURL=style.css.map */

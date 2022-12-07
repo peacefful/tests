@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
 
 * {
 	margin: 0px;
@@ -15,14 +15,14 @@ $inputRadius: 15px;
 $padding: 30px;
 $fzBtn: 35px;
 
-$blue: #378FF5;
+$blue: #378ff5;
 $white: white;
-$btnColor: #05782C;
+$btnColor: #05782c;
 
-$Inter: 'Inter', sans-serif;
+$Inter: "Inter", sans-serif;
 
 body {
-	background-color: #1E1E1E;
+	background-color: #1e1e1e;
 	color: $white;
 	margin: auto;
 }
@@ -33,11 +33,13 @@ header {
 	text-align: center;
 	margin-top: 74px;
 }
-
+h1 {
+	font-size: 40px;
+}
 main {
 	margin-top: 13%;
 	font-family: $Inter;
-	
+
 	.title {
 		font-size: $fzWords;
 		text-align: center;
@@ -62,7 +64,6 @@ main {
 			font-family: $Inter;
 		}
 	}
-	
 }
 
 .content {
@@ -98,3 +99,62 @@ main {
 	}
 }
 
+.test {
+	width: 67%;
+	header {
+		display: flex;
+		justify-content: space-between;
+		h1 {
+			font-size: 40px;
+			margin-top: 2.5%;
+		}
+		p {
+			font-size: 80px;
+		}
+		span {
+			color: red;
+		}
+	}
+	.main__test{
+		margin-top: 7%;
+	}
+	.p__test-text {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.test-title {
+		text-align: center;
+		font-size: 32px;
+		padding-bottom: 5%;
+	}
+	.test-term {
+		display: grid;
+		font-style: arial;
+		grid-template-columns: 4fr repeat(2, 1fr);
+		grid-template-rows: repeat(4, 1fr);
+		grid-column-gap: 25px;
+		grid-row-gap: 50px;
+		button {
+			border-radius: 15px;
+			height: 63px;
+			width: 205px;
+			font-family: $Inter;
+			font-size: 20px;
+		}
+	}
+	.btn__close-task {
+		display: flex;
+		margin-left: auto;
+		width: 434px;
+		height: 81px;
+		justify-content: center;
+		justify-self: stretch;
+		border-radius: $btnRadius;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		color: $white;
+		font-family: $Inter;
+		padding: 20px;
+		background-color: $btnColor;
+		font-size: $fzBtn;
+	}
+}
