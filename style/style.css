@@ -149,8 +149,9 @@ main .list .list__item {
 }
 
 ol {
+  margin-top: 3%;
+  text-align: justify;
   line-height: 37px;
-  width: 1215px;
   margin-left: 2.2%;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 32px;
