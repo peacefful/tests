@@ -188,12 +188,15 @@ ol {
 			color: black;
 			text-align: center;
 			font-family: $Inter;
-			width: 570px;
+			width: 510px;
 		}
 		.container__inputs {
 			display: flex;
 			justify-content: space-between;
 			input {
+				font-family: $Inter;
+				font-size: $fzWords;
+				text-align: center;
 				margin-top: 5%;
 				width: 100px;
 				height: 100px;
