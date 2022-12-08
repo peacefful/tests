@@ -140,4 +140,60 @@ main .list .list__item {
   padding: 20px;
   background-color: #05782c;
   font-size: 35px;
+}
+
+.text {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 37px;
+}
+
+ol {
+  line-height: 37px;
+  width: 1215px;
+  margin-left: 2.2%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.container .container__button .container__box {
+  border-radius: 15px;
+  padding: 27px 47px;
+  font-size: 40px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  width: 570px;
+}
+.container .container__button .container__inputs {
+  display: flex;
+  justify-content: space-between;
+}
+.container .container__button .container__inputs input {
+  margin-top: 5%;
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+}
+
+.wrap__btn {
+  display: flex;
+  justify-content: end;
+}
+.wrap__btn .btn__complete {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  min-width: 439px;
+  border-radius: 25px;
+  padding: 20px 47px;
+  font-family: "Inter", sans-serif;
+  font-size: 35px;
+  color: white;
+  background-color: #05782c;
 }/*# sourceMappingURL=style.css.map */
