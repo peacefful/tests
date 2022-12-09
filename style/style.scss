@@ -240,6 +240,11 @@ ol {
 	}
 }
 
+.test5-header {
+	position: sticky;
+	top: 0;
+}
+
 .divTable {
 	margin: auto;
 	margin-top: 5%;
@@ -255,30 +260,30 @@ ol {
 		font-size: 15px;
 		outline: 0;
 	}
-}
-.divTableRow {
-	display: table-row;
-}
-.divTableHeading {
-	background-color: #eee;
-	display: table-header-group;
-}
-.divTableCell,
-.divTableHead {
-	border: 1px solid #999999;
-	display: table-cell;
-	padding: 3px 10px;
-}
-.divTableHeading {
-	background-color: #eee;
-	display: table-header-group;
-	font-weight: bold;
-}
-.divTableFoot {
-	background-color: #eee;
-	display: table-footer-group;
-	font-weight: bold;
-}
-.divTableBody {
-	display: table-row-group;
+	.divTableRow {
+		display: table-row;
+	}
+	.divTableHeading {
+		background-color: #eee;
+		display: table-header-group;
+	}
+	.divTableCell,
+	.divTableHead {
+		border: 1px solid #999999;
+		display: table-cell;
+		padding: 3px 10px;
+	}
+	.divTableHeading {
+		background-color: #eee;
+		display: table-header-group;
+		font-weight: bold;
+	}
+	.divTableFoot {
+		background-color: #eee;
+		display: table-footer-group;
+		font-weight: bold;
+	}
+	.divTableBody {
+		display: table-row-group;
+	}
 }
