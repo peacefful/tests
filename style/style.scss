@@ -170,7 +170,6 @@ ol {
 	margin-top: 3%;
 	text-align: justify;
 	line-height: 37px;
-	// width: 1380px;
 	margin-left: 2.2%;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 32px;
@@ -224,4 +223,31 @@ ol {
 		background-color: #05782c;
 	}
 	
+}
+
+.blocks{
+	margin-top: 5%;
+	font-size: 32px;
+	font-family: 'Arial';
+	display: grid;
+	grid-template-columns: 429px 900px;
+	grid-template-rows: repeat(12, 1fr);
+	grid-column-gap: 90px;
+	grid-row-gap: 49px;
+	.block__text {
+		border-radius: 15px;
+		padding-top: 15%;
+		padding-left: 10%;
+		padding-right: 10%;
+		text-align: center;
+		background-color: white;
+		color: black;
+	}
+	.block__desk {
+		text-align: justify;
+		border-radius: 15px;
+		padding: 2% 5%;
+		color: black;
+		background-color: white;
+	}
 }

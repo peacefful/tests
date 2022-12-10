@@ -200,4 +200,31 @@ ol {
   font-size: 35px;
   color: white;
   background-color: #05782c;
+}
+
+.blocks {
+  margin-top: 5%;
+  font-size: 32px;
+  font-family: "Arial";
+  display: grid;
+  grid-template-columns: 429px 900px;
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 90px;
+  grid-row-gap: 49px;
+}
+.blocks .block__text {
+  border-radius: 15px;
+  padding-top: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+.blocks .block__desk {
+  text-align: justify;
+  border-radius: 15px;
+  padding: 2% 5%;
+  color: black;
+  background-color: white;
 }/*# sourceMappingURL=style.css.map */
