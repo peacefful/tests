@@ -207,33 +207,6 @@ ol {
   background-color: #05782c;
 }
 
-<<<<<<< HEAD
-.blocks {
-  margin-top: 5%;
-  font-size: 32px;
-  font-family: "Arial";
-  display: grid;
-  grid-template-columns: 429px 900px;
-  grid-template-rows: repeat(12, 1fr);
-  grid-column-gap: 90px;
-  grid-row-gap: 49px;
-}
-.blocks .block__text {
-  border-radius: 15px;
-  padding-top: 15%;
-  padding-left: 10%;
-  padding-right: 10%;
-  text-align: center;
-  background-color: white;
-  color: black;
-}
-.blocks .block__desk {
-  text-align: justify;
-  border-radius: 15px;
-  padding: 2% 5%;
-  color: black;
-  background-color: white;
-=======
 .test_btn {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -297,5 +270,29 @@ ol {
 }
 .divTable .divTableBody {
   display: table-row-group;
->>>>>>> 7da0981d9da30197b5e15b3e8a0df89978e3fe18
+}
+
+.blocks {
+  margin-top: 5%;
+  font-size: 32px;
+  font-family: "Arial";
+  display: grid;
+  grid-template-columns: 429px 900px;
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 90px;
+  grid-row-gap: 49px;
+}
+.blocks .block__text {
+  border-radius: 15px;
+  padding: 12% 10% 12% 10%;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+.blocks .block__desk {
+  text-align: justify;
+  border-radius: 15px;
+  padding: 2% 5%;
+  color: black;
+  background-color: white;
 }/*# sourceMappingURL=style.css.map */
