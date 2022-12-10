@@ -5,6 +5,10 @@
 	padding: 0px;
 	border: 0px;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
 
 $fzHeader: 64px;
 $fzWords: 40px;
@@ -115,8 +119,9 @@ main {
 			color: red;
 		}
 	}
-	.main__test{
+	.main__test {
 		margin-top: 7%;
+		text-align: center;
 	}
 	.p__test-text {
 		font-family: Arial, Helvetica, sans-serif;
@@ -159,22 +164,21 @@ main {
 	}
 }
 
-
-
 .text {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 32px;
 	line-height: 37px;
 }
 ol {
-	margin-top: 3%;
-	text-align: justify;
 	line-height: 37px;
+<<<<<<< HEAD
+=======
+	width: 1215px;
+>>>>>>> 7da0981d9da30197b5e15b3e8a0df89978e3fe18
 	margin-left: 2.2%;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 32px;
 }
-
 
 .container {
 	display: flex;
@@ -207,7 +211,6 @@ ol {
 	}
 }
 
-
 .wrap__btn {
 	display: flex;
 	justify-content: end;
@@ -222,6 +225,7 @@ ol {
 		color: $white;
 		background-color: #05782c;
 	}
+<<<<<<< HEAD
 	
 }
 
@@ -251,3 +255,70 @@ ol {
 		background-color: white;
 	}
 }
+=======
+}
+
+.test_btn {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 18%;
+	grid-row-gap: 96px;
+	margin-top: 5%;
+	button {
+		border-radius: 15px;
+		font-family: $Inter;
+		font-size: 40px;
+		width: 522px;
+		height: 100px;
+	}
+}
+
+.test5-header {
+	position: sticky;
+	top: 0;
+}
+
+.divTable {
+	margin: auto;
+	margin-top: 5%;
+	height: 450px;
+	display: table;
+	input {
+		width: 100%;
+		height: 100%;
+		background-color: #1e1e1e;
+		color: white;
+		font-family: $Inter;
+		text-align: center;
+		font-size: 15px;
+		outline: 0;
+	}
+	.divTableRow {
+		display: table-row;
+	}
+	.divTableHeading {
+		background-color: #eee;
+		display: table-header-group;
+	}
+	.divTableCell,
+	.divTableHead {
+		border: 1px solid #999999;
+		display: table-cell;
+		padding: 3px 10px;
+	}
+	.divTableHeading {
+		background-color: #eee;
+		display: table-header-group;
+		font-weight: bold;
+	}
+	.divTableFoot {
+		background-color: #eee;
+		display: table-footer-group;
+		font-weight: bold;
+	}
+	.divTableBody {
+		display: table-row-group;
+	}
+}
+>>>>>>> 7da0981d9da30197b5e15b3e8a0df89978e3fe18

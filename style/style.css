@@ -5,6 +5,11 @@
   border: 0px;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
 body {
   background-color: #1e1e1e;
   color: white;
@@ -101,6 +106,7 @@ main .list .list__item {
 }
 .test .main__test {
   margin-top: 7%;
+  text-align: center;
 }
 .test .p__test-text {
   font-family: Arial, Helvetica, sans-serif;
@@ -149,9 +155,8 @@ main .list .list__item {
 }
 
 ol {
-  margin-top: 3%;
-  text-align: justify;
   line-height: 37px;
+  width: 1215px;
   margin-left: 2.2%;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 32px;
@@ -202,6 +207,7 @@ ol {
   background-color: #05782c;
 }
 
+<<<<<<< HEAD
 .blocks {
   margin-top: 5%;
   font-size: 32px;
@@ -227,4 +233,69 @@ ol {
   padding: 2% 5%;
   color: black;
   background-color: white;
+=======
+.test_btn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 18%;
+  grid-row-gap: 96px;
+  margin-top: 5%;
+}
+.test_btn button {
+  border-radius: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  width: 522px;
+  height: 100px;
+}
+
+.test5-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.divTable {
+  margin: auto;
+  margin-top: 5%;
+  height: 450px;
+  display: table;
+}
+.divTable input {
+  width: 100%;
+  height: 100%;
+  background-color: #1e1e1e;
+  color: white;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 15px;
+  outline: 0;
+}
+.divTable .divTableRow {
+  display: table-row;
+}
+.divTable .divTableHeading {
+  background-color: #eee;
+  display: table-header-group;
+}
+.divTable .divTableCell,
+.divTable .divTableHead {
+  border: 1px solid #999999;
+  display: table-cell;
+  padding: 3px 10px;
+}
+.divTable .divTableHeading {
+  background-color: #eee;
+  display: table-header-group;
+  font-weight: bold;
+}
+.divTable .divTableFoot {
+  background-color: #eee;
+  display: table-footer-group;
+  font-weight: bold;
+}
+.divTable .divTableBody {
+  display: table-row-group;
+>>>>>>> 7da0981d9da30197b5e15b3e8a0df89978e3fe18
 }/*# sourceMappingURL=style.css.map */
