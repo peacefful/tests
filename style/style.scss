@@ -299,12 +299,12 @@ ol {
 	font-family: 'Arial';
 	display: grid;
 	grid-template-columns: 429px 900px;
-	grid-template-rows: repeat(12, 1fr);
+	grid-template-rows: 131px 131px;
 	grid-column-gap: 90px;
 	grid-row-gap: 49px;
 	.block__text {
 		border-radius: 15px;
-		padding: 12% 10% 12% 10%;
+		padding: 12% 12%;
 		text-align: center;
 		background-color: white;
 		color: black;
@@ -312,7 +312,7 @@ ol {
 	.block__desk {
 		text-align: justify;
 		border-radius: 15px;
-		padding: 2% 5%;
+		padding: 2% 3%;
 		color: black;
 		background-color: white;
 	}
