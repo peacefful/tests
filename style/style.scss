@@ -298,22 +298,20 @@ ol {
 	font-size: 32px;
 	font-family: 'Arial';
 	display: grid;
-	grid-template-columns: 429px 900px;
-	grid-template-rows: 131px 131px;
+	grid-template-columns: 329px 852px;
+	grid-template-rows: repeat(12, 231px);
 	grid-column-gap: 90px;
 	grid-row-gap: 49px;
 	.block__text {
 		border-radius: 15px;
-		padding: 12% 12%;
-		text-align: center;
-		background-color: white;
+		padding: 25% 5% 0% 5%;
 		color: black;
+		background: $white;
 	}
 	.block__desk {
-		text-align: justify;
+		padding: 5% 2% 0% 2%;
 		border-radius: 15px;
-		padding: 2% 3%;
+		background: $white;
 		color: black;
-		background-color: white;
 	}
 }
